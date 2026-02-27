@@ -1,10 +1,12 @@
 {
-  "last_run": "2026-02-26T19:57:55Z",
-  "last_run_id": "22458753237",
+  "last_run": "2026-02-27T19:50:34Z",
+  "last_run_id": "22501345506",
   "tasks_last_run": {
     "task1_triage": "2026-02-26T07:42:33Z",
+    "task5_maintain_prs": "2026-02-27T19:50:34Z",
+    "task7_labels": "2026-02-27T19:50:34Z",
     "task10_forward": "2026-02-26T19:57:55Z",
-    "task11_monthly_summary": "2026-02-26T19:57:55Z"
+    "task11_monthly_summary": "2026-02-27T19:50:34Z"
   },
   "issue_backlog_cursor": "",
   "commented_issues": [],
@@ -14,7 +16,8 @@
       "id": "contributing-guide",
       "description": "Add CONTRIBUTING.md to guide new contributors",
       "status": "pr_created",
-      "branch": "repo-assist/improve-contributing-guide",
+      "pr_number": 7,
+      "branch": "repo-assist/improve-contributing-guide-143ddcc28469b60d",
       "run": "22458753237"
     }
   ],
@@ -29,9 +32,12 @@
   "checked_off_items": [],
   "open_repo_assist_prs": [
     {
-      "branch": "repo-assist/improve-contributing-guide",
+      "number": 7,
+      "branch": "repo-assist/improve-contributing-guide-143ddcc28469b60d",
       "description": "Add CONTRIBUTING.md to guide new contributors",
-      "run": "22458753237"
+      "run": "22458753237",
+      "state": "draft",
+      "ci": "none"
     }
   ]
 }
