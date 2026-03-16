@@ -1,17 +1,17 @@
 {
-  "last_run": "2026-03-15T19:45:34Z",
-  "last_run_id": "23117867765",
+  "last_run": "2026-03-16T19:57:42Z",
+  "last_run_id": "23163133411",
   "tasks_last_run": {
-    "task1_triage": "2026-03-15T19:45:34Z",
+    "task1_triage": "2026-03-16T19:57:42Z",
     "task3_improvements": "2026-03-13T19:49:54Z",
     "task4_deps": "2026-03-14T19:44:14Z",
     "task5_maintain_prs": "2026-03-15T19:45:34Z",
-    "task6_stale_prs": "2026-03-15T19:45:34Z",
-    "task7_labels": "2026-03-15T19:45:34Z",
+    "task6_stale_prs": "2026-03-16T19:57:42Z",
+    "task7_labels": "2026-03-16T19:57:42Z",
     "task8_release": "2026-03-14T19:44:14Z",
     "task9_welcome": "2026-03-14T19:44:14Z",
     "task10_forward": "2026-03-14T19:44:14Z",
-    "task11_monthly_summary": "2026-03-15T19:45:34Z"
+    "task11_monthly_summary": "2026-03-16T19:57:42Z"
   },
   "issue_backlog_cursor": "",
   "commented_issues": [
@@ -26,6 +26,12 @@
       "comment_time": "2026-03-09T19:55:12Z",
       "run": "22871937342",
       "note": "Commented noting duplicate of #9, pointing to PR #10"
+    },
+    {
+      "issue_number": 17,
+      "comment_time": "2026-03-16T19:57:42Z",
+      "run": "23163133411",
+      "note": "Commented noting duplicate of #9 and #14, pointing to PR #10"
     }
   ],
   "fix_attempts": [
@@ -100,6 +106,11 @@
       "pr_number": 7,
       "nudge_time": "2026-03-13T19:49:54Z",
       "run": "23067857585"
+    },
+    {
+      "pr_number": 10,
+      "nudge_time": "2026-03-16T19:57:42Z",
+      "run": "23163133411"
     }
   ],
   "checked_off_items": [],
@@ -111,7 +122,7 @@
       "run": "22458753237",
       "state": "draft",
       "ci": "clean",
-      "last_checked": "2026-03-15T19:45:34Z",
+      "last_checked": "2026-03-16T19:57:42Z",
       "note": "Stale nudge posted 2026-03-13. CI: pending (no checks configured). Clean."
     },
     {
@@ -121,8 +132,8 @@
       "run": "22593032073",
       "state": "draft",
       "ci": "clean",
-      "last_checked": "2026-03-15T19:45:34Z",
-      "note": "13 days old. Stale threshold (14 days) reached 2026-03-16 — nudge next run."
+      "last_checked": "2026-03-16T19:57:42Z",
+      "note": "14 days old. Stale nudge posted 2026-03-16."
     },
     {
       "number": 11,
@@ -131,8 +142,8 @@
       "run": "22686470481",
       "state": "draft",
       "ci": "clean",
-      "last_checked": "2026-03-15T19:45:34Z",
-      "note": "CI: pending (no checks configured). Clean."
+      "last_checked": "2026-03-16T19:57:42Z",
+      "note": "12 days old. Stale threshold reached 2026-03-18."
     },
     {
       "number": 12,
@@ -141,8 +152,8 @@
       "run": "22805783274",
       "state": "draft",
       "ci": "clean",
-      "last_checked": "2026-03-15T19:45:34Z",
-      "note": "CI: pending (no checks configured). Clean."
+      "last_checked": "2026-03-16T19:57:42Z",
+      "note": "9 days old. Stale threshold reached 2026-03-21."
     },
     {
       "number": 13,
@@ -151,8 +162,8 @@
       "run": "22828318430",
       "state": "draft",
       "ci": "clean",
-      "last_checked": "2026-03-15T19:45:34Z",
-      "note": "CI: pending (no checks configured). Clean."
+      "last_checked": "2026-03-16T19:57:42Z",
+      "note": "8 days old. Stale threshold reached 2026-03-22."
     },
     {
       "number": 15,
@@ -161,8 +172,8 @@
       "run": "22921490712",
       "state": "draft",
       "ci": "clean",
-      "last_checked": "2026-03-15T19:45:34Z",
-      "note": "CI: pending (no checks configured). Clean."
+      "last_checked": "2026-03-16T19:57:42Z",
+      "note": "6 days old. Stale threshold reached 2026-03-24."
     },
     {
       "number": 16,
@@ -171,8 +182,8 @@
       "run": "23067857585",
       "state": "draft",
       "ci": "clean",
-      "last_checked": "2026-03-15T19:45:34Z",
-      "note": "CI: pending (no checks configured). Clean."
+      "last_checked": "2026-03-16T19:57:42Z",
+      "note": "3 days old. Stale threshold reached 2026-03-27."
     }
   ],
   "labels_applied": [
@@ -185,6 +196,11 @@
       "item_number": 14,
       "label": "duplicate",
       "run": "22871937342"
+    },
+    {
+      "item_number": 17,
+      "label": "duplicate",
+      "run": "23163133411"
     }
   ],
   "release_notes": {
