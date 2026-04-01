@@ -102,14 +102,14 @@ Do NOT apply `duplicate` unless you are reasonably confident it covers the same 
 Evaluate whether the issue contains enough information to act on. An issue lacks clarity when it is missing:
 
 - Steps to reproduce (for bugs)
-- Expected vs. actual behaviour (for bugs)
+- Expected vs. actual behavior (for bugs)
 - A clear description of the desired feature or change (for enhancements)
 - Enough context to answer (for questions)
 
 If the issue is unclear or missing important information:
 
 - Apply the `needs more info` label
-- Post a **single, friendly comment** asking for the specific missing details (e.g., reproduction steps, environment info, expected behaviour). Be precise — ask only for what is genuinely needed.
+- Post a **single, friendly comment** asking for the specific missing details (e.g., reproduction steps, environment info, expected behavior). Be precise — ask only for what is genuinely needed.
 
 If the issue is sufficiently detailed, do NOT add `needs more info` and do NOT post a comment about it.
 
