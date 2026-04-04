@@ -1,17 +1,17 @@
 {
-  "last_run": "2026-04-03T19:55:40Z",
-  "last_run_id": "23960010407",
+  "last_run": "2026-04-04T19:49:11Z",
+  "last_run_id": "23986274985",
   "tasks_last_run": {
     "task1_triage": "2026-04-02T20:00:05Z",
     "task3_improvements": "2026-03-26T20:00:34Z",
     "task4_deps": "2026-03-28T19:47:36Z",
     "task5_maintain_prs": "2026-04-03T19:55:40Z",
     "task6_stale_prs": "2026-04-03T19:55:40Z",
-    "task7_labels": "2026-03-26T20:00:34Z",
+    "task7_labels": "2026-04-04T19:49:11Z",
     "task8_release": "2026-03-28T19:47:36Z",
-    "task9_welcome": "2026-03-28T19:47:36Z",
+    "task9_welcome": "2026-04-04T19:49:11Z",
     "task10_forward": "2026-04-03T19:55:40Z",
-    "task11_monthly_summary": "2026-04-03T19:55:40Z"
+    "task11_monthly_summary": "2026-04-04T19:49:11Z"
   },
   "issue_backlog_cursor": "",
   "commented_issues": [
@@ -113,8 +113,7 @@
       "status": "pr_created",
       "pr_number": 28,
       "branch": "repo-assist/improve-add-editorconfig",
-      "run": "23960010407",
-      "note": "PR number 28 is estimated (next after issue #27); verify on next run"
+      "run": "23960010407"
     }
   ],
   "deps_updates": [
@@ -134,8 +133,8 @@
     "title": "[Repo Assist] Monthly Activity 2026-04",
     "month": "2026-04",
     "created_run": "23919274300",
-    "last_updated_run": "23960010407",
-    "note": "Updated with run entry for 2026-04-03."
+    "last_updated_run": "23986274985",
+    "note": "Updated with run entry for 2026-04-04. Added investigate actions for #23 and #26."
   },
   "welcomed_contributors": [],
   "nudged_prs": [
@@ -184,7 +183,7 @@
       "run": "22458753237",
       "state": "draft",
       "ci": "clean",
-      "last_checked": "2026-04-03T19:55:40Z"
+      "last_checked": "2026-04-04T19:49:11Z"
     },
     {
       "number": 10,
@@ -193,7 +192,7 @@
       "run": "22593032073",
       "state": "draft",
       "ci": "clean",
-      "last_checked": "2026-04-03T19:55:40Z"
+      "last_checked": "2026-04-04T19:49:11Z"
     },
     {
       "number": 11,
@@ -202,7 +201,7 @@
       "run": "22686470481",
       "state": "draft",
       "ci": "clean",
-      "last_checked": "2026-04-03T19:55:40Z"
+      "last_checked": "2026-04-04T19:49:11Z"
     },
     {
       "number": 12,
@@ -211,7 +210,7 @@
       "run": "22805783274",
       "state": "draft",
       "ci": "clean",
-      "last_checked": "2026-04-03T19:55:40Z"
+      "last_checked": "2026-04-04T19:49:11Z"
     },
     {
       "number": 13,
@@ -220,7 +219,7 @@
       "run": "22828318430",
       "state": "draft",
       "ci": "clean",
-      "last_checked": "2026-04-03T19:55:40Z"
+      "last_checked": "2026-04-04T19:49:11Z"
     },
     {
       "number": 15,
@@ -229,7 +228,7 @@
       "run": "22921490712",
       "state": "draft",
       "ci": "clean",
-      "last_checked": "2026-04-03T19:55:40Z"
+      "last_checked": "2026-04-04T19:49:11Z"
     },
     {
       "number": 16,
@@ -238,7 +237,7 @@
       "run": "23067857585",
       "state": "draft",
       "ci": "clean",
-      "last_checked": "2026-04-03T19:55:40Z"
+      "last_checked": "2026-04-04T19:49:11Z"
     },
     {
       "number": 18,
@@ -247,7 +246,7 @@
       "run": "23314055206",
       "state": "draft",
       "ci": "clean",
-      "last_checked": "2026-04-03T19:55:40Z"
+      "last_checked": "2026-04-04T19:49:11Z"
     },
     {
       "number": 28,
@@ -256,8 +255,7 @@
       "run": "23960010407",
       "state": "draft",
       "ci": "clean",
-      "last_checked": "2026-04-03T19:55:40Z",
-      "note": "PR number estimated as 28; verify on next run"
+      "last_checked": "2026-04-04T19:49:11Z"
     }
   ],
   "labels_applied": [
@@ -295,10 +293,20 @@
       "item_number": 21,
       "label": "duplicate",
       "run": "23615188029"
+    },
+    {
+      "item_number": 23,
+      "label": "needs investigation",
+      "run": "23986274985"
+    },
+    {
+      "item_number": 26,
+      "label": "needs investigation",
+      "run": "23986274985"
     }
   ],
   "release_notes": {
-    "last_checked": "2026-04-03T19:55:40Z",
+    "last_checked": "2026-04-04T19:49:11Z",
     "note": "No releases exist. No merged PRs yet. Revisit once PRs are merged."
   },
   "task10_notes": {
