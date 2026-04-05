@@ -1,17 +1,17 @@
 {
-  "last_run": "2026-04-04T19:49:11Z",
-  "last_run_id": "23986274985",
+  "last_run": "2026-04-05T19:51:44Z",
+  "last_run_id": "24009141726",
   "tasks_last_run": {
     "task1_triage": "2026-04-02T20:00:05Z",
-    "task3_improvements": "2026-03-26T20:00:34Z",
+    "task3_improvements": "2026-04-05T19:51:44Z",
     "task4_deps": "2026-03-28T19:47:36Z",
     "task5_maintain_prs": "2026-04-03T19:55:40Z",
     "task6_stale_prs": "2026-04-03T19:55:40Z",
-    "task7_labels": "2026-04-04T19:49:11Z",
+    "task7_labels": "2026-04-05T19:51:44Z",
     "task8_release": "2026-03-28T19:47:36Z",
     "task9_welcome": "2026-04-04T19:49:11Z",
     "task10_forward": "2026-04-03T19:55:40Z",
-    "task11_monthly_summary": "2026-04-04T19:49:11Z"
+    "task11_monthly_summary": "2026-04-05T19:51:44Z"
   },
   "issue_backlog_cursor": "",
   "commented_issues": [
@@ -133,8 +133,8 @@
     "title": "[Repo Assist] Monthly Activity 2026-04",
     "month": "2026-04",
     "created_run": "23919274300",
-    "last_updated_run": "23986274985",
-    "note": "Updated with run entry for 2026-04-04. Added investigate actions for #23 and #26."
+    "last_updated_run": "24009141726",
+    "note": "Updated with run entry for 2026-04-05. Cleaned up duplicate footer. Label for #26 reapplied."
   },
   "welcomed_contributors": [],
   "nudged_prs": [
@@ -183,7 +183,7 @@
       "run": "22458753237",
       "state": "draft",
       "ci": "clean",
-      "last_checked": "2026-04-04T19:49:11Z"
+      "last_checked": "2026-04-05T19:51:44Z"
     },
     {
       "number": 10,
@@ -192,7 +192,7 @@
       "run": "22593032073",
       "state": "draft",
       "ci": "clean",
-      "last_checked": "2026-04-04T19:49:11Z"
+      "last_checked": "2026-04-05T19:51:44Z"
     },
     {
       "number": 11,
@@ -201,7 +201,7 @@
       "run": "22686470481",
       "state": "draft",
       "ci": "clean",
-      "last_checked": "2026-04-04T19:49:11Z"
+      "last_checked": "2026-04-05T19:51:44Z"
     },
     {
       "number": 12,
@@ -210,7 +210,7 @@
       "run": "22805783274",
       "state": "draft",
       "ci": "clean",
-      "last_checked": "2026-04-04T19:49:11Z"
+      "last_checked": "2026-04-05T19:51:44Z"
     },
     {
       "number": 13,
@@ -219,7 +219,7 @@
       "run": "22828318430",
       "state": "draft",
       "ci": "clean",
-      "last_checked": "2026-04-04T19:49:11Z"
+      "last_checked": "2026-04-05T19:51:44Z"
     },
     {
       "number": 15,
@@ -228,7 +228,7 @@
       "run": "22921490712",
       "state": "draft",
       "ci": "clean",
-      "last_checked": "2026-04-04T19:49:11Z"
+      "last_checked": "2026-04-05T19:51:44Z"
     },
     {
       "number": 16,
@@ -237,7 +237,7 @@
       "run": "23067857585",
       "state": "draft",
       "ci": "clean",
-      "last_checked": "2026-04-04T19:49:11Z"
+      "last_checked": "2026-04-05T19:51:44Z"
     },
     {
       "number": 18,
@@ -246,7 +246,7 @@
       "run": "23314055206",
       "state": "draft",
       "ci": "clean",
-      "last_checked": "2026-04-04T19:49:11Z"
+      "last_checked": "2026-04-05T19:51:44Z"
     },
     {
       "number": 28,
@@ -255,7 +255,7 @@
       "run": "23960010407",
       "state": "draft",
       "ci": "clean",
-      "last_checked": "2026-04-04T19:49:11Z"
+      "last_checked": "2026-04-05T19:51:44Z"
     }
   ],
   "labels_applied": [
@@ -302,15 +302,16 @@
     {
       "item_number": 26,
       "label": "needs investigation",
-      "run": "23986274985"
+      "run": "24009141726",
+      "note": "Re-applied — previous attempt run 23986274985 did not appear to stick"
     }
   ],
   "release_notes": {
-    "last_checked": "2026-04-04T19:49:11Z",
+    "last_checked": "2026-04-05T19:51:44Z",
     "note": "No releases exist. No merged PRs yet. Revisit once PRs are merged."
   },
   "task10_notes": {
-    "last_checked": "2026-04-03T19:55:40Z",
-    "note": "9 community-health/tooling PRs open and awaiting review. No source code in repo yet. CI workflow would be vacuous without code. Added .editorconfig PR #28 this run. Future work: CHANGELOG.md, CI workflow once code lands."
+    "last_checked": "2026-04-05T19:51:44Z",
+    "note": "9 community-health/tooling PRs open and awaiting review. No source code in repo yet. CI workflow would be vacuous without code. All reasonable community health improvements have been proposed. Future work: CHANGELOG.md, CI workflow once code lands."
   }
 }
