@@ -1,0 +1,11 @@
+# CODEOWNERS
+#
+# This file defines code ownership for automatic review requests.
+# See: https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
+#
+# Each line is a file pattern followed by one or more owners.
+# Owners are notified and automatically requested as reviewers when
+# a pull request changes matching files.
+
+# Default owner for everything in the repository
+* @mnkiefer
