@@ -1,17 +1,17 @@
 {
-  "last_run": "2026-04-06T20:00:51Z",
-  "last_run_id": "24048494591",
+  "last_run": "2026-04-23T20:15:31Z",
+  "last_run_id": "24856564708",
   "tasks_last_run": {
-    "task1_triage": "2026-04-06T20:00:51Z",
-    "task3_improvements": "2026-04-05T19:51:44Z",
-    "task4_deps": "2026-04-06T20:00:51Z",
-    "task5_maintain_prs": "2026-04-03T19:55:40Z",
-    "task6_stale_prs": "2026-04-03T19:55:40Z",
-    "task7_labels": "2026-04-05T19:51:44Z",
-    "task8_release": "2026-04-06T20:00:51Z",
-    "task9_welcome": "2026-04-04T19:49:11Z",
-    "task10_forward": "2026-04-03T19:55:40Z",
-    "task11_monthly_summary": "2026-04-06T20:00:51Z"
+    "task1_triage": "2026-04-23T20:15:31Z",
+    "task3_improvements": "2026-04-18T19:56:00Z",
+    "task4_deps": "2026-04-17T20:05:00Z",
+    "task5_maintain_prs": "2026-04-23T20:15:31Z",
+    "task6_stale_prs": "2026-04-21T20:13:00Z",
+    "task7_labels": "2026-04-22T20:15:00Z",
+    "task8_release": "2026-04-23T20:15:31Z",
+    "task9_welcome": "2026-04-23T20:15:31Z",
+    "task10_forward": "2026-04-22T20:15:00Z",
+    "task11_monthly_summary": "2026-04-23T20:15:31Z"
   },
   "issue_backlog_cursor": "",
   "commented_issues": [
@@ -44,6 +44,12 @@
       "comment_time": "2026-04-06T20:00:51Z",
       "run": "24048494591",
       "note": "Commented noting issue has expired (Apr 5), Repo Assist has been running successfully since Apr 2; recommended closure"
+    },
+    {
+      "issue_number": 26,
+      "comment_time": "2026-04-09T20:10:00Z",
+      "run": "24210901667",
+      "note": "Commented noting issue expired Apr 8, auth failure appears transient; recommended closure"
     }
   ],
   "fix_attempts": [
@@ -120,6 +126,38 @@
       "pr_number": 28,
       "branch": "repo-assist/improve-add-editorconfig",
       "run": "23960010407"
+    },
+    {
+      "id": "codeowners",
+      "description": "Add CODEOWNERS to auto-assign code review to @mnkiefer",
+      "status": "pr_created",
+      "pr_number": 29,
+      "branch": "repo-assist/improve-add-codeowners",
+      "run": "24101722706"
+    },
+    {
+      "id": "support-md",
+      "description": "Add SUPPORT.md with help and bug reporting guidance",
+      "status": "pr_created",
+      "pr_number": 30,
+      "branch": "repo-assist/improve-add-support-md",
+      "run": "24210901667"
+    },
+    {
+      "id": "changelog",
+      "description": "Add CHANGELOG.md following Keep a Changelog format",
+      "status": "pr_created",
+      "pr_number": 31,
+      "branch": "repo-assist/improve-add-changelog",
+      "run": "24420733076"
+    },
+    {
+      "id": "agents-md",
+      "description": "Add AGENTS.md with AI assistant guidelines",
+      "status": "pr_created",
+      "pr_number": 32,
+      "branch": "repo-assist/improve-add-agents-md-be11a630cca6de5a",
+      "run": "24800341079"
     }
   ],
   "deps_updates": [
@@ -131,7 +169,7 @@
       "issue_numbers": [19, 20, 21, 22],
       "branch": "repo-assist/deps-update-2026-03-25",
       "run": "23561122698",
-      "note": "Push failed on runs 23359974423, 23387194233, 23410931948, and 23561122698. Root cause: modifying .github/workflows/*.yml files requires 'workflows' write permission which the repo-assist token does not have. Patch available in issue #22 (latest, supersedes #19, #20, #21). DO NOT RETRY - requires manual application by maintainer. Issues #19, #20, #21 labeled as 'duplicate'. Checked again on 2026-04-06 - no change possible."
+      "note": "Push failed 4 times - requires 'workflows' write permission. Patch in issue #22. DO NOT RETRY."
     }
   ],
   "monthly_summary_issue": {
@@ -139,185 +177,53 @@
     "title": "[Repo Assist] Monthly Activity 2026-04",
     "month": "2026-04",
     "created_run": "23919274300",
-    "last_updated_run": "24048494591",
-    "note": "Updated with run entry for 2026-04-06. Added comment on #23 expiry to suggested actions."
+    "last_updated_run": "24856564708",
+    "note": "Updated with run entry for 2026-04-23. Fixed PR #32 reference in Suggested Actions."
   },
   "welcomed_contributors": [],
   "nudged_prs": [
-    {
-      "pr_number": 7,
-      "nudge_time": "2026-03-13T19:49:54Z",
-      "run": "23067857585"
-    },
-    {
-      "pr_number": 10,
-      "nudge_time": "2026-03-16T19:57:42Z",
-      "run": "23163133411"
-    },
-    {
-      "pr_number": 11,
-      "nudge_time": "2026-03-18T19:54:47Z",
-      "run": "23264087558"
-    },
-    {
-      "pr_number": 12,
-      "nudge_time": "2026-03-21T19:40:49Z",
-      "run": "23387194233"
-    },
-    {
-      "pr_number": 13,
-      "nudge_time": "2026-03-23T19:58:19Z",
-      "run": "23457236815"
-    },
-    {
-      "pr_number": 15,
-      "nudge_time": "2026-03-24T19:58:42Z",
-      "run": "23509507199"
-    },
-    {
-      "pr_number": 16,
-      "nudge_time": "2026-03-27T19:54:40Z",
-      "run": "23664761784"
-    }
+    {"pr_number": 7, "nudge_time": "2026-03-13T19:49:54Z", "run": "23067857585"},
+    {"pr_number": 10, "nudge_time": "2026-03-16T19:57:42Z", "run": "23163133411"},
+    {"pr_number": 11, "nudge_time": "2026-03-18T19:54:47Z", "run": "23264087558"},
+    {"pr_number": 12, "nudge_time": "2026-03-21T19:40:49Z", "run": "23387194233"},
+    {"pr_number": 13, "nudge_time": "2026-03-23T19:58:19Z", "run": "23457236815"},
+    {"pr_number": 15, "nudge_time": "2026-03-24T19:58:42Z", "run": "23509507199"},
+    {"pr_number": 16, "nudge_time": "2026-03-27T19:54:40Z", "run": "23664761784"}
   ],
   "checked_off_items": [],
   "open_repo_assist_prs": [
-    {
-      "number": 7,
-      "branch": "repo-assist/improve-contributing-guide-143ddcc28469b60d",
-      "description": "Add CONTRIBUTING.md to guide new contributors",
-      "run": "22458753237",
-      "state": "draft",
-      "ci": "clean",
-      "last_checked": "2026-04-06T20:00:51Z"
-    },
-    {
-      "number": 10,
-      "branch": "repo-assist/fix-issue-9-dependabot-config-ae7d6d8121087d90",
-      "description": "Add .github/dependabot.yml for GitHub Actions (Closes #9)",
-      "run": "22593032073",
-      "state": "draft",
-      "ci": "clean",
-      "last_checked": "2026-04-06T20:00:51Z"
-    },
-    {
-      "number": 11,
-      "branch": "repo-assist/improve-github-templates-fba2d3435c813b51",
-      "description": "Add GitHub issue and PR templates",
-      "run": "22686470481",
-      "state": "draft",
-      "ci": "clean",
-      "last_checked": "2026-04-06T20:00:51Z"
-    },
-    {
-      "number": 12,
-      "branch": "repo-assist/improve-add-license-file-eca309eacdeb37ea",
-      "description": "Add MIT License file",
-      "run": "22805783274",
-      "state": "draft",
-      "ci": "clean",
-      "last_checked": "2026-04-06T20:00:51Z"
-    },
-    {
-      "number": 13,
-      "branch": "repo-assist/improve-readme-content-e953a9be8f768c86",
-      "description": "Expand README with structured sections",
-      "run": "22828318430",
-      "state": "draft",
-      "ci": "clean",
-      "last_checked": "2026-04-06T20:00:51Z"
-    },
-    {
-      "number": 15,
-      "branch": "repo-assist/improve-code-of-conduct-586714b024e5850e",
-      "description": "Add Contributor Covenant Code of Conduct",
-      "run": "22921490712",
-      "state": "draft",
-      "ci": "clean",
-      "last_checked": "2026-04-06T20:00:51Z"
-    },
-    {
-      "number": 16,
-      "branch": "repo-assist/improve-add-security-policy-bed012f950f4a853",
-      "description": "Add SECURITY.md with vulnerability reporting policy",
-      "run": "23067857585",
-      "state": "draft",
-      "ci": "clean",
-      "last_checked": "2026-04-06T20:00:51Z"
-    },
-    {
-      "number": 18,
-      "branch": "repo-assist/improve-add-gitignore",
-      "description": "Add .gitignore with common OS, editor, log, and build patterns",
-      "run": "23314055206",
-      "state": "draft",
-      "ci": "clean",
-      "last_checked": "2026-04-06T20:00:51Z"
-    },
-    {
-      "number": 28,
-      "branch": "repo-assist/improve-add-editorconfig",
-      "description": "Add .editorconfig for consistent coding styles",
-      "run": "23960010407",
-      "state": "draft",
-      "ci": "clean",
-      "last_checked": "2026-04-06T20:00:51Z"
-    }
+    {"number": 7, "description": "Add CONTRIBUTING.md", "state": "draft", "ci": "clean", "last_checked": "2026-04-23T20:15:31Z"},
+    {"number": 10, "description": "Add dependabot.yml (Closes #9)", "state": "draft", "ci": "clean", "last_checked": "2026-04-23T20:15:31Z"},
+    {"number": 11, "description": "Add GitHub issue and PR templates", "state": "draft", "ci": "clean", "last_checked": "2026-04-23T20:15:31Z"},
+    {"number": 12, "description": "Add MIT License file", "state": "draft", "ci": "clean", "last_checked": "2026-04-23T20:15:31Z"},
+    {"number": 13, "description": "Expand README with structured sections", "state": "draft", "ci": "clean", "last_checked": "2026-04-23T20:15:31Z"},
+    {"number": 15, "description": "Add Code of Conduct", "state": "draft", "ci": "clean", "last_checked": "2026-04-23T20:15:31Z"},
+    {"number": 16, "description": "Add SECURITY.md", "state": "draft", "ci": "clean", "last_checked": "2026-04-23T20:15:31Z"},
+    {"number": 18, "description": "Add .gitignore", "state": "draft", "ci": "clean", "last_checked": "2026-04-23T20:15:31Z"},
+    {"number": 28, "description": "Add .editorconfig", "state": "draft", "ci": "clean", "last_checked": "2026-04-23T20:15:31Z"},
+    {"number": 29, "description": "Add CODEOWNERS", "state": "draft", "ci": "clean", "last_checked": "2026-04-23T20:15:31Z"},
+    {"number": 30, "description": "Add SUPPORT.md", "state": "draft", "ci": "clean", "last_checked": "2026-04-23T20:15:31Z"},
+    {"number": 31, "description": "Add CHANGELOG.md", "state": "draft", "ci": "clean", "last_checked": "2026-04-23T20:15:31Z"},
+    {"number": 32, "description": "Add AGENTS.md", "state": "draft", "ci": "unstable_no_checks", "last_checked": "2026-04-23T20:15:31Z"}
   ],
   "labels_applied": [
-    {
-      "item_number": 9,
-      "label": "enhancement",
-      "run": "22639978730"
-    },
-    {
-      "item_number": 14,
-      "label": "duplicate",
-      "run": "22871937342"
-    },
-    {
-      "item_number": 17,
-      "label": "duplicate",
-      "run": "23163133411"
-    },
-    {
-      "item_number": 17,
-      "label": "enhancement",
-      "run": "23264087558"
-    },
-    {
-      "item_number": 19,
-      "label": "duplicate",
-      "run": "23615188029"
-    },
-    {
-      "item_number": 20,
-      "label": "duplicate",
-      "run": "23615188029"
-    },
-    {
-      "item_number": 21,
-      "label": "duplicate",
-      "run": "23615188029"
-    },
-    {
-      "item_number": 23,
-      "label": "needs investigation",
-      "run": "23986274985"
-    },
-    {
-      "item_number": 26,
-      "label": "needs investigation",
-      "run": "24009141726",
-      "note": "Re-applied — previous attempt run 23986274985 did not appear to stick"
-    }
+    {"item_number": 9, "label": "enhancement", "run": "22639978730"},
+    {"item_number": 14, "label": "duplicate", "run": "22871937342"},
+    {"item_number": 17, "label": "duplicate", "run": "23163133411"},
+    {"item_number": 17, "label": "enhancement", "run": "23264087558"},
+    {"item_number": 19, "label": "duplicate", "run": "23615188029"},
+    {"item_number": 20, "label": "duplicate", "run": "23615188029"},
+    {"item_number": 21, "label": "duplicate", "run": "23615188029"},
+    {"item_number": 22, "label": "help wanted", "run": "24290263278"},
+    {"item_number": 23, "label": "needs investigation", "run": "23986274985"},
+    {"item_number": 26, "label": "needs investigation", "run": "24009141726"}
   ],
   "release_notes": {
-    "last_checked": "2026-04-06T20:00:51Z",
+    "last_checked": "2026-04-23T20:15:31Z",
     "note": "No releases exist. No merged PRs yet. Revisit once PRs are merged."
   },
   "task10_notes": {
-    "last_checked": "2026-04-06T20:00:51Z",
-    "note": "9 community-health/tooling PRs open and awaiting review. No source code in repo yet. CI workflow would be vacuous without code. All reasonable community health improvements have been proposed. Future work: CHANGELOG.md, CI workflow once code lands."
+    "last_checked": "2026-04-23T20:15:31Z",
+    "note": "13 community-health/tooling PRs open and awaiting review (#7, #10-#13, #15, #16, #18, #28-#32). No source code in repo yet. All reasonable community health improvements have been proposed. Future work: CI workflow once code lands."
   }
 }
