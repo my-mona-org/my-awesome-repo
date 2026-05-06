@@ -1,0 +1,10 @@
+[
+  {
+    "date": "2026-05-06",
+    "workflow_name": "Issue Triage",
+    "total_tokens_analyzed": 0,
+    "runs_audited": 2,
+    "recommendations_count": 5,
+    "estimated_savings_per_run": 0
+  }
+]
